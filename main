@@ -1,0 +1,19 @@
+import java.util.*
+
+public class main{
+  public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
+    
+    int input = "";
+    
+    System.out.println("Would you like to start an adventure into the World of Alon: yes(1)-no(2)");
+    input = scan.nextInt();
+    
+    if(input == 1){
+      System.out.println("What class would like to be: Wizard(1), Dragonslayer(2), Brawler(3), Assassin(4)");
+      input = scan.nextInt();
+      if(
+    }else{
+    }
+  }
+}
